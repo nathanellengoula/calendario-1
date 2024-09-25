@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "\"Calender API\"",
+  "main": "app.js",
+  "author": "Nathanelle",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "ical": "^0.8.0",
+    "ics": "^3.8.0",
+    "mysql2": "^3.11.3",
+    "node-notifier": "^10.0.1",
+    "node-schedule": "^2.1.1",
+    "nodemailer": "^6.9.15",
+    "sequelize": "^6.37.3",
+    "sequelize-cli": "^6.6.2",
+    "twilio": "^5.3.1"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": []
+}
